@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    height: 60vh;
+    width: 27%;
+    border-radius: 2rem;
+    margin: 50px;
+    font-size: 2.3rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);;
+}
+
+.main-img{
+    height: 70%;
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.img-container{
+    position: relative;
+    display: inline-block;
+}
+
+
+.overlay-text{
+    position: absolute;
+    bottom: 12%;
+    left: 2%;
+    background-color: #0466c8;
+    color: #fff; 
+    padding: 5px 10px;
+    font-size: 3rem;
+    text-align: center;
+    width: 25%;
+}
+
+.logo{
+    width: 15%;
+    height: 5%;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 0.3rem;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+#rating{
+    display: flex;
+    font-size: 2.5rem;
+    background-color: green;
+    color:white;
+    padding: 4px 20px;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+
+#rating h4:nth-of-type(1){
+    margin-top:0.5rem;
+    font-size: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 0.3rem;
+}
+
+.row2 p{
+    font-size: 2.7rem;
+    font-weight:normal;
+}
+
+.row3{
+    display: flex;
+    justify-content: end;
+    margin: 2rem;
+    padding: 0.3rem;
+}
+
+hr{
+    width: 95%;
+    height: 2px;
+    background-color: #9d9fa0;
+    margin: 10px auto;
+}
+
+.row4{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 15px;
+    align-items: center;
+}
+
+.row4 img{
+    margin: 20px;
+}
+
+
